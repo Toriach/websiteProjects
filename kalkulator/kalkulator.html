@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kalkulator</title>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <script src="../script/kalkulatorScript.js"></script>
+</head>
+<body>
+<div>
+    <h1>Kalkulator</h1>
+
+    <p>Pierwsza liczba</p>
+    <input type="text" placeholder="Podaj pierwszą liczbę" required>
+    <hr>
+    <p>Druga liczba</p>
+    <input type="text" placeholder="Podaj pierwszą liczbę" required>
+    <hr>
+    <p>Operacja</p>
+    <select id="operation_Select">
+        <option>dodawanie</option>
+        <option>odejmowanie</option>
+        <option>mnożenie</option>
+        <option>dzielenie</option>
+    </select>
+    <hr><hr>
+    <input type="button" id="oblicz" value="Calculate">
+    <hr>
+    <p id="resultText">Wynik: </p>
+    <p id="result" >0</p>
+
+</div>
+
+</body>
+</html>
