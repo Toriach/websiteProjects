@@ -1,0 +1,74 @@
+#result {
+    border-style: outset;
+    border-width: 4px;
+    border-color: cornflowerblue;
+    background-color: aliceblue;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 95%;
+    box-sizing: border-box;
+}
+
+#calculatorContainerDiv {
+    background-color: wheat;
+    width: 250px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+
+    box-sizing: border-box;
+    float: left;
+    position: relative;
+}
+
+#buttonDiv {
+    background-color: wheat;
+    width: 60%;
+    padding: 10px 10px 10px 10px;
+    border-right: thin solid lightgray;
+
+    box-sizing: border-box;
+    float: left;
+    position: relative;
+
+}
+#buttonOptionsDiv {
+    background-color: wheat;
+    width: 40%;
+    padding: 10px 10px 10px 10px;
+
+    box-sizing: border-box;
+    float: left;
+    position: relative;
+}
+input[id="0"] {
+    width: 60%;
+}
+
+input[id="+"],input[id="-"],input[id="*"],input[id="/"] {
+    width: 41%;
+}
+
+input[type=button] {
+    border-style: outset;
+    border-width: 4px;
+    border-color: cornflowerblue;
+    background-color: lavender;
+    margin: 2px;
+    font-size: 20px;
+}
+
+input[id="."] {
+    width: 27%;
+    background-color: darkgray;
+}
+
+#optionHR{
+    margin-top: 30px;
+    margin-bottom: 6px;
+}
+input[id="="]{
+    width: 92%;
+    margin-top: 0px;
+}
+
